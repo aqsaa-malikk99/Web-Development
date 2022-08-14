@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Projects</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(180deg, #7B4397 0%, #651C45 100%);
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="navbar">
+
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">JS Projects</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+    </section>
+    <div id="question" class="">
+
+        <div class="container d-flex align-items-center justify-content-center text-center h-100 div-question">
+            <div class="text-white">
+                <h1>Love Calculator.....</h1>
+                <h3>Find the percentage of love between you and your partner</h3>
+
+                <form onsubmit="index.html">
+                    <div class="form-row row">
+                        <div class="col-lg-6 mb-3">
+                            <input class="form-control" maxlength="22" type="text"
+                                placeholder="Enter Your name here....">
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <input class="form-control" maxlength="22" type="text"
+                                placeholder="Enter partner name here....">
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-primary calculate-btn shadow-none" type="submit">Calculate</button>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center text-center h-100 div-result">
+            <div class="text-white">
+                <h1 id="percentage">Your Love Percentage is 36%</h1>
+                <br>
+                <h3 id="description">Find the percentage of love between you and your partner</h3>
+
+
+                <div class="row  justify-content-center text-center align-items-center d-flex">
+                    <div class="col-lg-4 text-center">
+                        <p>Angela Ru</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <i class="fa-solid fa-heart" style="color: red; font-size: 2.5rem;"></i>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Angela Ru</p>
+                    </div>
+
+                </div>
+                <br>
+
+                <button class="btn btn-primary retry-btn shadow-none type=" submit">Retry</button>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+    background-color: #0E0C13;
+    background-image: url('../images/background_image.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+
+
+/* Height for devices larger than 576px */
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: #232026;
+    padding-left: 1%;
+    padding-right: 1%;
+
+
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.nav-items {
+    padding: 0 18px;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.nav-link:hover {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+#title {
+    height: 100vh;
+}
+
+.title {
+    margin-top: 20%;
+}
+
+
+.title h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 2%;
+
+}
+
+.title h3,
+#question h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+
+}
+
+
+.card {
+    background: #2C293A;
+    border: 1px solid #3D373E;
+    border-radius: 23px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2%;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+    background: #494361;
+
+
+}
+
+.card-img-top {
+
+    width: 100px;
+    height: 100px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-text {
+
+    font-size: 1rem;
+}
+
+.list-projects {
+    padding: 2%;
+}
+
+#question h1 {
+    padding-top: 20%;
+}
+
+.form-control {
+    font-family: "Quicksand";
+    font-weight: 700;
+}
+
+#question h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1%;
+
+}
+
+#question h3 {
+    margin-bottom: 2%;
+}
+
+.calculate-btn:focus,
+.calculate-btn,
+.retry-btn,
+.retry-btn:focus {
+
+    background-color: #651C45;
+    border-style: none;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.calculate-btn:hover,
+.retry-btn:hover {
+
+    background-color: #7B4397;
+    border-style: none;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.form-control {
+    padding: 5%;
+}
+
+.div-result {
+    display: none !important;
+
+}
+
+p {
+    font-size: 2rem;
+}

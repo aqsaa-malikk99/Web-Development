@@ -1,0 +1,1 @@
+alert(document.getElementsByTagName("li")[0].textContent);
